@@ -1,0 +1,30 @@
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #e8e8e8;
+}
+h1, h2, h3, h4, h5, h6, .fs-1, .fs-2, .fs-3, .fs-4, .fs-5, .fs-6 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+.section {
+    margin-bottom: 3em;
+    h1 {
+        margin-bottom: 1em;
+    }
+}
+
+.owl-nav {
+    button {
+        font-size: 5vh !important;
+    }
+    button:first-child {
+        margin-right: 15px;
+    }
+
+}

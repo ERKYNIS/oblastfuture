@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Всероссийский форум «Область будущего»</title>
+        
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/ae9532b090.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body class="h-100 text-center text-bg-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol id="check2" viewBox="0 0 16 16">
+            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+          </symbol>
+          <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+          </symbol>
+          <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+            <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+          </symbol>
+          <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+          </symbol>
+        </svg>
+    
+    
+        <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <div>
+                <h3 class="float-md-start mb-0">«Область будущего»</h3>
+                </div>
+            </header>
+            
+            <main class="px-3">
+                <a class="justify-content-center" href="/">
+                    <img style="margin-top: 3em;max-width: 500px;" class="rounded" src="assets/images/logo_horizontal.jpg" width="90%">
+                </a>
+                <h1 style="font-size: 7vh">Всероссийский форум<br>«Область будущего»</h1>
+                <p style="font-size: 1.5em" class="lead">Всероссийский молодёжный образовательный форум «Область будущего» — это площадка для создания новой IT-среды благодаря ресурсам государственных структур, бизнес-сообщества и других институтов для поддержки молодёжных инициатив в новейших отраслях IT-индустрии.</p>
+                <p class="lead">
+                <a href="/" class="btn btn-lg btn-dark fw-bold border-white bg-dark">Главная</a>
+                <a href="https://vk.com/oblastfuture" class="btn btn-lg btn-dark fw-bold border-white bg-dark">Новости</a>
+                <a href="/#about" class="btn btn-lg btn-dark fw-bold border-white bg-dark">О форуме</a>
+                <a href="/#gallery" class="btn btn-lg btn-dark fw-bold border-white bg-dark">Галерея</a>
+                <a href="/#contacts" class="btn btn-lg btn-dark fw-bold border-white bg-dark">Контакты</a>
+                </p>
+            </main>
+            
+            <footer class="mt-auto text-white-50">
+                <p>При поддержке «Росмолодёжь», «Движение Первых» и «Молодёжь Липецкой области»</p>
+            </footer>
+
+        <main style="margin-top: 7em" class="section">
+            <a name="about"></a>
+            <h1>О форуме</h1>
+            <img class="rounded" src="assets/images/cover.png" width="85%">
+            <p style="font-size: 18px;margin-top: 1em">Участников ждут 3 профильные смены.</p>
+            <p style="font-size: 18px;">Смена «Первые в IT» пройдёт с 15 июля по 4 августа. Участниками смены станут представители Движения Первых, заинтересованные в развитии своих компетенций в сфере IT-технологий.</p>
+            <p style="font-size: 18px;">Смена «IT-ГОРОД» собёрет с 23 по 26 июля представителей области дата-саентист, дата-инженеров и аналитиков, Python, JavaScript, PHP, Dart и Java-разработчиков, а также специалистов кибербезопасности и начинающих разработчиков социально-ориентированных IT-инструментов.</p>
+            <p style="font-size: 18px;">Смена «IT-ИСКУССТВО» для представителей индустрии дизайна виртуальных миров, VR/AR — разработчиков, веб-дизайнеров, графических дизайнеров, моушн-дизайнеров, геймдизайнеров, а также представителей творческой IT-индустрии и разработки игр пройдёт с 30 июля по 2 августа.</p>
+            <p style="font-size: 18px;">Если вы хотите стать соавторами создания технологической среды и приложений по совершенствованию цифрового мира, искусственного интеллекта, безопасности и инноваций в цифровой среде — «Область будущего» ждет вас!</p>
+            
+        </main>
+
+        <main class="section">
+            <a name="gallery"></a>
+            <h1>Галерея</h1>
+            <div class="owl-carousel">
+                <div class="item"><img class="img-fluid" src="assets/images/gallery/1.jpg"></div>
+                <div class="item"><img class="img-fluid" src="assets/images/gallery/2.jpg"></div>
+                <div class="item"><img class="img-fluid" src="assets/images/gallery/3.jpg"></div>
+                <div class="item"><img class="img-fluid" src="assets/images/gallery/4.jpg"></div>
+                <div class="item"><img class="img-fluid" src="assets/images/gallery/5.jpg"></div>
+                <div class="item"><img class="img-fluid" src="assets/images/gallery/6.jpg"></div>
+                <div class="item"><img class="img-fluid" src="assets/images/gallery/7.jpg"></div>
+              </div>
+        </main>
+
+        <main class="section">
+            <a name="contacts"></a>
+            <h1>Контакты</h1>
+            <div class="row">
+                <a target="_blank" class="col-sm" href="https://events.myrosmol.ru/forums/oblast-budushchego/"><svg class="align-bottom" width="15em" height="10em" viewBox="0 0 193 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.5704 4.73804C11.6996 4.73804 15.0424 7.76627 15.0424 11.8955C15.0424 15.9854 11.6406 19.0924 7.78652 19.0924C5.97775 19.0924 4.22727 18.581 2.91015 17.0868H2.7527V27.5083H0V13.0359C0 7.98239 2.91015 4.73804 7.5704 4.73804ZM7.53104 16.6735C10.2641 16.6735 12.1323 14.5105 12.1323 11.8951C12.1323 9.29951 10.3034 7.15616 7.53104 7.15616C4.73898 7.15616 2.85111 9.27983 2.85111 11.8755C2.85111 14.5105 4.77834 16.6735 7.53104 16.6735Z" fill="#8C64D8"></path>
+                    <path d="M17.5977 11.9154C17.5977 7.7862 21.0585 4.73828 25.1287 4.73828C29.1989 4.73828 32.6597 7.7862 32.6597 11.9154C32.6597 16.0447 29.1989 19.0926 25.1287 19.0926C21.0585 19.0926 17.5977 16.0451 17.5977 11.9154ZM25.1291 16.6741C27.8818 16.6741 29.75 14.5504 29.75 11.9154C29.75 9.28083 27.8818 7.15678 25.1291 7.15678C22.3764 7.15678 20.5082 9.26115 20.5082 11.9154C20.5082 14.5504 22.376 16.6741 25.1291 16.6741Z" fill="#8C64D8"></path>
+                    <path d="M42.8285 19.0926C38.5028 19.0926 35.2188 16.0644 35.2188 11.9154C35.2188 7.7862 38.4241 4.73828 42.7301 4.73828C46.0335 4.73828 49.1208 6.52775 49.9073 9.92954H47.0758C46.3878 8.10072 44.7357 7.15678 42.8088 7.15678C39.8987 7.15678 38.1289 9.31981 38.1289 11.9548C38.1289 14.6292 39.9577 16.6741 42.8679 16.6741C44.7557 16.6741 46.4665 15.8089 47.1349 13.8226H49.986C48.9633 17.4413 46.0138 19.0926 42.8285 19.0926Z" fill="#8C64D8"></path>
+                    <path d="M60.1895 17.1064L55.6666 7.64852H55.5879V18.7978H52.9336V5.0332H57.1612L61.6444 14.4521H61.7231L66.2062 5.0332H70.4339V18.7975H67.7792V7.64852H67.7005L63.178 17.1064H60.1895Z" fill="#8C64D8"></path>
+                    <path d="M73.3826 11.9152C73.3826 7.78596 76.8434 4.73804 80.9136 4.73804C84.9838 4.73804 88.4447 7.78596 88.4447 11.9152C88.4447 16.0444 84.9838 19.0924 80.9136 19.0924C76.8434 19.0924 73.3826 16.0448 73.3826 11.9152ZM80.914 16.6739C83.6667 16.6739 85.5349 14.5502 85.5349 11.9152C85.5349 9.28058 83.6667 7.15654 80.914 7.15654C78.1609 7.15654 76.2931 9.26052 76.2931 11.9152C76.2931 14.5502 78.1609 16.6739 80.914 16.6739Z" fill="#8C64D8"></path>
+                    <path d="M89.8398 18.9165V16.0654H89.8989C90.4299 16.0654 91.0786 15.8292 91.4719 15.3773C91.9832 14.8069 92.2387 13.7843 92.5138 12.29L92.9071 10.0876C93.3594 7.55105 94.2639 4.9751 98.0786 4.9751H103.447V18.7984H100.694V7.53137H98.5502C96.4069 7.53137 95.9546 8.12142 95.4433 11.0513L95.0894 13.1159C94.7749 15.0037 94.3029 16.6358 93.3196 17.6777C92.5725 18.4642 91.5301 18.9165 90.1343 18.9165H89.8398Z" fill="#8C64D8"></path>
+                    <path d="M106.496 11.9154C106.496 7.7862 109.957 4.73828 114.027 4.73828C118.097 4.73828 121.558 7.7862 121.558 11.9154C121.558 16.0447 118.097 19.0926 114.027 19.0926C109.957 19.0926 106.496 16.0451 106.496 11.9154ZM114.027 16.6741C116.78 16.6741 118.648 14.5504 118.648 11.9154C118.648 9.28083 116.78 7.15678 114.027 7.15678C111.274 7.15678 109.406 9.26077 109.406 11.9154C109.406 14.5504 111.274 16.6741 114.027 16.6741Z" fill="#8C64D8"></path>
+                    <path d="M124.745 22.1406H122.09V16.2415H123.879C124.666 15.3566 125.079 14.0392 125.452 12.4465L126.042 9.89023C126.613 7.43236 127.674 4.97412 131.076 4.97412H136.424V16.2412H138.41V22.1402H135.756V18.7974H124.744V22.1406H124.745ZM133.711 16.3006V7.49141H131.135C129.463 7.49141 128.893 8.82859 128.559 10.2441L127.949 12.8988C127.615 14.3734 127.104 15.5924 126.592 16.1038V16.3002H133.711V16.3006Z" fill="#8C64D8"></path>
+                    <path d="M148.024 19.0929C143.638 19.0929 140.453 16.0647 140.453 11.9158C140.453 7.78652 143.658 4.7386 147.925 4.7386C151.229 4.7386 155.201 6.90163 155.201 12.1319V12.7022H143.206C143.501 15.003 145.291 16.6744 148.004 16.6744C149.616 16.6744 151.543 16.0844 152.074 14.6885H154.905C154.041 17.7168 150.835 19.0929 148.024 19.0929ZM143.245 0H146.096V2.85111H143.245V0ZM152.33 10.5986C151.897 8.51434 150.285 7.11812 147.886 7.11812C145.487 7.11812 143.835 8.61275 143.324 10.5986H152.33ZM149.439 0H152.291V2.85111H149.439V0Z" fill="#8C64D8"></path>
+                    <path d="M168.175 5.0332V10.4996H170.476L173.72 5.0332H176.748L172.718 11.6006L177.083 18.7975H173.995L170.515 12.9969H168.175V18.7975H165.579V12.9969H163.239L159.759 18.7975H156.672L161.037 11.6006L157.006 5.0332H160.035L163.279 10.4996H165.58V5.0332H168.175Z" fill="#8C64D8"></path>
+                    <path d="M179.012 12.6034L178.972 5.03296H181.725L181.745 8.94609H181.824C182.984 7.53019 184.459 6.8421 186.228 6.8421C189.61 6.8421 192.344 9.35901 192.344 12.8789C192.344 16.4381 189.551 19.0924 185.717 19.0924C181.863 19.0921 179.032 16.359 179.012 12.6034ZM185.658 16.6736C187.841 16.6736 189.433 15.14 189.433 12.9966C189.433 10.8533 187.841 9.28029 185.658 9.28029C183.495 9.28029 181.902 10.8533 181.902 12.9966C181.902 15.14 183.495 16.6736 185.658 16.6736Z" fill="#8C64D8"></path>
+                    <path d="M59.7109 32.9607C59.7109 29.9495 61.821 27.9216 64.8526 27.9216C66.0611 27.9216 67.0853 28.249 68.089 28.8637L67.3722 30.1339C66.5732 29.6623 65.7542 29.3553 64.8114 29.3553C62.6605 29.3553 61.2676 30.9529 61.2676 32.9607C61.2676 34.9682 62.6605 36.5658 64.8114 36.5658C65.7538 36.5658 66.5728 36.2588 67.3722 35.7876L68.089 37.0574C67.0857 37.6721 66.0611 37.9999 64.8526 37.9999C61.821 37.9999 59.7109 35.9716 59.7109 32.9607Z" fill="#8C64D8"></path>
+                    <path d="M78.8163 32.961C78.8163 35.8901 76.6654 38.0001 73.6951 38.0001C70.7456 38.0001 68.5742 35.8901 68.5742 32.961C68.5742 30.0315 70.7456 27.9219 73.6951 27.9219C76.6654 27.9219 78.8163 30.0315 78.8163 32.961ZM70.1309 32.961C70.1309 35.1323 71.6467 36.5456 73.6951 36.5456C75.7438 36.5456 77.2596 35.1323 77.2596 32.961C77.2596 30.7896 75.7438 29.376 73.6951 29.376C71.6467 29.376 70.1309 30.7896 70.1309 32.961Z" fill="#8C64D8"></path>
+                    <path d="M80.0742 31.7726C80.0742 29.499 80.648 26.8152 82.6963 25.6272C83.9461 24.9308 85.9123 24.5825 86.8752 24.3161C87.5103 24.1318 88.0019 23.7628 88.0428 23.2715H89.4973C89.4973 24.5825 88.8213 25.1972 87.6333 25.525C86.8139 25.7502 84.6425 26.1188 83.4953 26.713C82.2251 27.389 81.5696 28.8639 81.4057 30.7484H81.467C82.1638 29.0074 83.7818 28.065 85.728 28.065C88.5344 28.065 90.4602 30.0316 90.4602 32.9198C90.4602 35.8901 88.4727 38.0001 85.298 38.0001C82.389 38.0001 80.0742 36.2792 80.0742 31.7726ZM88.9027 33.0019C88.9027 30.7692 87.3051 29.4373 85.3385 29.4373C83.3719 29.4373 81.7539 30.7692 81.7539 32.9815C81.7539 35.2141 83.3719 36.5456 85.3385 36.5456C87.3256 36.5456 88.9027 35.2141 88.9027 33.0019Z" fill="#8C64D8"></path>
+                    <path d="M99.996 34.7027C99.996 36.4641 98.7262 37.6931 96.7596 37.6931H92.2734V28.2295H93.7484V31.7323H96.78C98.7262 31.7323 99.996 32.8795 99.996 34.7027ZM98.4393 34.7231C98.4393 33.6581 97.8455 33.0638 96.6161 33.0638H93.7484V36.3619H96.6161C97.8455 36.3619 98.4393 35.7473 98.4393 34.7231ZM102.433 28.2295V37.6931H100.959V28.2295H102.433Z" fill="#8C64D8"></path>
+                    <path d="M112.485 29.5814H108.839V37.6931H107.364V29.5814H103.738V28.2295H112.485V29.5814Z" fill="#8C64D8"></path>
+                    <path d="M113.789 28.2295H115.284V35.44H115.325L120.733 28.2295H122.229V37.6931H120.733V30.4826H120.693L115.305 37.6931H113.789V28.2295Z" fill="#8C64D8"></path>
+                    <path d="M131.869 28.2295V37.6931H130.394V33.9855H128.427L125.58 37.6931H123.777L126.706 33.965C125.068 33.7807 124.003 32.7565 124.003 31.1381C124.003 29.3354 125.314 28.2295 127.26 28.2295H131.869ZM130.394 32.654V29.5814H127.424C126.195 29.5814 125.56 30.1552 125.56 31.1177C125.56 32.101 126.195 32.654 127.424 32.654H130.394Z" fill="#8C64D8"></path>
+                    </svg></a>
+
+                <a target="_blank" class="col-sm" style="font-size: 5em" href="https://t.me/oblastfuture"><i style="color:#229ED9" class="fa-brands fa-telegram align-bottom"></i></a>
+                <a target="_blank" class="col-sm" style="font-size: 5em;" href="https://vk.com/oblastfuture"><i style="color:#006df0" class="fa-brands fa-vk align-bottom"></i></a>
+                <a target="_blank" class="col-sm" href="https://the-code-factory-team.github.io/"><img class="align-bottom" src="https://the-code-factory-team.github.io/static/img/logo_without_back.png" width="150em"/></a>
+            </div>
+            
+        </main>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" data-bs-theme="dark">
+            <p class="col-md-4 mb-0 text-body-secondary">2024 © «Область будущего»<br><span style="font-size: 14px;">При поддержке «Росмолодёжь», «Движение Первых» и «Молодёжь Липецкой области»</span></p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img class="rounded" src="assets/images/logo.jpg" height="75em" width="75em">
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Главная</a></li>
+            <li class="nav-item"><a href="https://vk.com/oblastfuture" class="nav-link px-2 text-body-secondary">Новости</a></li>
+            <li class="nav-item"><a href="/#about" class="nav-link px-2 text-body-secondary">О форуме</a></li>
+            <li class="nav-item"><a href="/#gallery" class="nav-link px-2 text-body-secondary">Галерея</a></li>
+            <li class="nav-item"><a href="/#contacts" class="nav-link px-2 text-body-secondary">Контакты</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script>
+
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause:true,
+            autoplay:true,
+            autoHeight: true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                600:{
+                    items:1,
+                    nav:true
+                },
+                1000:{
+                    items:3,
+                    nav:true
+                }
+            }
+        });
+    </script>
+
+    </body>
+</html>
